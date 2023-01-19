@@ -1,0 +1,20 @@
+body { 
+    font-family:'Helvetica', 'Arial', sans-serif;
+    padding-top: 4.8rem;
+}
+a { text-decoration: none; }
+
+.no-padding { padding: 0 !important; }
+
+.title { font-size: 3.25rem; font-weight: bold; }
+.image-1 { height: 512px; }
+
+.product-info { bottom: 16px; left: 16px; }
+.five { width: 35px; }
+
+.decor { max-height: 450px; object-fit: cover; }
+.zoom:hover { transform: scale(1.1); margin: 0 16px; }
+
+@media screen and (max-width: 767px) {
+    .image-1 { height: 350px; }
+}

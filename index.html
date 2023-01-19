@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="./style.css" rel="stylesheet">
+    <title>Furniture Landing Page</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-md fixed-top bg-white px-2">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="./images/logo-main.png" width="128px" alt="main-logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbarLight" aria-controls="offcanvasNavbarLight">
+                <span><img src="./images/icon-menu.png" width="32" height="32" alt="collapse-button"></span>
+            </button>
+            <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbarLight" aria-labelledby="offcanvasNavbarLightLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLightLabel">MENU</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item"><a href="#" class="nav-link link-dark mx-2">About Us</a></li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link link-dark dropdown-toggle mx-2" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Furniture</a>
+                            <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="#">Item 1</a></li>
+                              <li><a class="dropdown-item" href="#">Item 2</a></li>
+                              <li><a class="dropdown-item" href="#">Item 3</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item"><a href="#" class="nav-link link-dark mx-2">Partnership</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link link-dark mx-2">Contact</a></li>
+                    </ul>
+                    <div class="d-flex">
+                        <div class="nav-item"><a href="#" class="nav-link link-dark bg-olive rounded mx-1">Sign Up</a></div>
+                        <div class="nav-item">
+                            <a href="#" class="nav-link bg-coklat rounded mx-1">
+                                <img src="./images/icon-cart.png" width="16px" alt="icon-cart">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <main class="container-fluid">
+        <div class="row">
+            <div class="col-md-7 align-self-center px-4">
+                <p class="title text-center">The kind of <span class="text-coklat-2">furniture</span> you have been looking for</p>
+                <div class="row text-center">
+                    <div class="col-lg-6 mt-5">
+                        <a href="#" class="bg-olive link-dark px-3 py-3 border rounded"><img src="./images/icon-search.png" width="20" alt="icon-search"> &nbsp; SEARCH CATALOG</a>
+                    </div>
+                    <div class="col-lg-6 my-5">
+                        <a href="#" class="link-dark px-4 py-3 border border-dark rounded"><img src="./images/icon-play-media.png" width="20" alt="icon-play"> &nbsp; WATCH VIDEOS</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-5 no-padding">
+                <div class="position-relative overflow-hidden">
+                    <img src="./images/image-1.png" class="w-100 image-1" alt="image-1">
+                    <div class="position-absolute product-info ms-4">
+                        <span class="bg-white p-2 my-3 rounded opacity-75">$329</span>
+                        <h1 class="text-white my-3">Pohst Sofa</h1>
+                        <div class="my-4">
+                            <a href="#" class="bg-coklat link-light p-3 rounded">VIEW DETAILS &nbsp;<img src="./images/arrow-right-1.png" width="10" alt="arrow-right-1"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row bg-coklat">
+            <div class="p-5 text-olive">
+                <p class="px-4">WHY CHOOSE US?</p>
+                <p class="title p-4">We care about details and the quality of our products</p>
+                <div class="row px-4">
+                    <div class="col-md-4 my-3 d-flex align-items-center">
+                        <div>
+                            <img src="./images/icon-search-1.png" class="bg-olive p-2 rounded" width="35" alt="icon-search-1">
+                        </div>
+                        <span class="mx-3">MANUFACTURED WITH QUALITY MATERIALS</span>
+                    </div>
+                    <div class="col-md-4 my-3 d-flex align-items-center">
+                        <div>
+                            <img src="./images/five.png" class="bg-olive p-2 rounded" width="35" alt="five">
+                        </div>
+                        <span class="mx-3">5 YEARS OF WARRANTY FOR EACH PRODUCT</span>
+                    </div>
+                    <div class="col-md-4 my-3 d-flex align-items-center">
+                        <div>
+                            <img src="./images/icon-experience.png" class="bg-olive p-2 rounded" width="35" alt="icon-experience">
+                        </div>
+                        <span class="mx-3">20 YEARS OF EXPERTISE</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row p-5 align-items-center">
+            <div class="col-lg-4 text-center">
+                <span class="title">25+</span>
+                <p>PARTNERER BRANDS</p>
+            </div>
+            <div class="col-lg-8 my-4 d-flex justify-content-center align-items-center">
+                <a href="gusto.com" target="_blank" class="mx-3 mt-2">
+                    <img src="./images/logo-gusto.png" width="100" height="35" alt="logo-gusto">
+                </a>
+                <a href="stripe.com" target="_blank" class="mx-3">
+                    <img src="./images/logo-stripe.png" width="100" height="35" alt="logo-stripe">
+                </a>
+                <a href="teamtreehouse.com" target="_blank" class="mx-3">
+                    <img src="./images/logo-treehouse.png" width="150" height="35" alt="logo-treehouse">
+                </a>
+                <a href="upwork.com" target="_blank" class="mx-3">
+                    <img src="./images/logo-upwork.png" width="100" alt="logo-upwork">
+                </a>
+            </div>
+        </div>
+        <div class="row p-4">
+            <div class="col-md-7 d-flex">
+                <img src="./images/image-2.png" class="me-2 decor rounded overflow-hidden" alt="image-2">
+                <img src="./images/image-3.png" class="me-2 decor rounded overflow-hidden" alt="image-3">
+                <img src="./images/image-4.png" class="decor rounded overflow-hidden" alt="image-4">
+            </div>
+            <div class="col-md-5 p-3">
+                <div class="text-center text-md-start">
+                    <p>Categories</p>
+                    <h2 class="fw-bold my-3">Furniture Sets Recomendations</h2>
+                </div>
+                <div class="p-2"><h4 class="fw-bold">Bedroom</h4></div>
+                <div class="bg-olive p-2 rounded">
+                    <h4 class="fw-bold">Living Room</h4>
+                    <p>Enjoy a great living room aesthetics with your family Designs created for increased comfortability</p>
+                </div>
+                <div class="p-2"><h4 class="fw-bold">Home Office</h4></div>
+                <div class="p-2"><h4 class="fw-bold">Gaming Room</h4></div>
+            </div>
+        </div>
+        <div class="row bg-coklat text-olive">
+            <div class="p-5 d-flex justify-content-between align-items-center">
+                <div>
+                    <p>OUR PRODUCTS</p>
+                    <h2 class="fw-bold">This month's best seller</h2>
+                </div>
+                <div>
+                    <a href="#" class="bg-olive link-dark p-2 rounded">SEE MORE</a>
+                </div>
+            </div>
+            <div class="d-flex pb-5 justify-content-between overflow-auto">
+                <div class="position-relative zoom">
+                    <img src="./images/image-5.png" class="mx-2" width="200" alt="image-5">
+                    <div class="position-absolute product-info ms-1">
+                        <span class="bg-white text-dark p-2 my-3 rounded opacity-75">$329</span>
+                        <h3 class="text-white my-3">Kursi</h3>
+                    </div>
+                </div>
+                <div class="position-relative zoom">
+                    <img src="./images/image-6.png" class="mx-2" width="200" alt="image-6">
+                    <div class="position-absolute product-info ms-1">
+                        <span class="bg-white text-dark p-2 my-3 rounded opacity-75">$329</span>
+                        <h3 class="text-white my-3">Sofa</h3>
+                    </div>
+                </div>
+                <div class="position-relative zoom">
+                        <img src="./images/image-7.png" class="mx-2" width="200" alt="image-7">
+                        <div class="position-absolute product-info ms-1">
+                            <span class="bg-white text-dark p-2 my-3 rounded opacity-75">$329</span>
+                            <h3 class="text-white my-3">Meja</h3>
+                        </div>
+                </div>
+                <div class="position-relative zoom">
+                    <img src="./images/image-8.png" class="mx-2" width="200" alt="image-8">
+                    <div class="position-absolute product-info ms-1">
+                        <span class="bg-white text-dark p-2 my-3 rounded opacity-75">$329</span>
+                        <h3 class="text-white my-3">Rak Dinding</h3>
+                    </div>
+                </div>
+                <div class="position-relative zoom">
+                    <img src="./images/image-5.png" class="mx-2" width="200" alt="image-5">
+                    <div class="position-absolute product-info ms-1">
+                        <span class="bg-white text-dark p-2 my-3 rounded opacity-75">$329</span>
+                        <h3 class="text-white my-3">Kursi</h3>
+                    </div>
+                </div>
+                <div class="position-relative zoom">
+                    <img src="./images/image-6.png" class="mx-2" width="200" alt="image-6">
+                    <div class="position-absolute product-info ms-1">
+                        <span class="bg-white text-dark p-2 my-3 rounded opacity-75">$329</span>
+                        <h3 class="text-white my-3">Sofa</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 p-5">
+                <p class="px-4">LIMITED DEALS</p>
+                <p class="title px-4">Become a member and get 10% off of your first purchase</p>
+                <div class="col-md-6">
+                    <form class="d-flex p-4">
+                        <input type="email" class="form-control" placeholder="Enter your email here" required>
+                        <button type="submit" class="btn bg-olive"><img src="./images/icon-email.png" width="20"></button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="row">
+            <div class="col-lg-6 text-center text-lg-start px-5">
+                <img src="./images/logo-main.png" width="128px" alt="main-logo">
+                <p class="py-4">
+                    Dekoor is a furniture company created to fulfill the needs of family with aestethic feeling in their furniture. 
+                    Always pay attention to details and give clear communication for the customers. Priority of our design is comfortability.
+                </p>
+            </div>
+            <div class="col-lg-6 d-flex justify-content-center text-center text-lg-start no-padding">
+                <div class="col-4">
+                    <h6 class="fw-bold mb-4">Support</h6>
+                    <p><a href="#" class="text-reset">FAQ</a></p>
+                    <p><a href="#" class="text-reset">Shipping & Returns</a></p>
+                    <p><a href="#" class="text-reset">Care Guide</a></p>
+                    <p><a href="#" class="text-reset">Redeem Warranty</a></p>
+                </div>
+                <div class="col-4">
+                    <h6 class="fw-bold mb-4">Social Media</h6>
+                    <p><a href="#" class="text-reset">Instagram</a></p>
+                    <p><a href="#" class="text-reset">Facebook</a></p>
+                    <p><a href="#" class="text-reset">Twitter</a></p>
+                    <p><a href="#" class="text-reset">TikTok</a></p>
+                </div>
+                <div class="col-4">
+                    <h6 class="fw-bold mb-4">About Us</h6>
+                    <p><a href="#" class="text-reset">Our Story</a></p>
+                    <p><a href="#" class="text-reset">Designer</a></p>
+                    <p><a href="#" class="text-reset">Craftmanship</a></p>
+                    <p><a href="#" class="text-reset">Sustainability</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="text-center p-2">
+            © Copyright 2023 Dekoor
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js" integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./script.js"></script>
+</body>
+</html>
